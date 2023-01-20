@@ -20,6 +20,7 @@ class sine_wave():
         return self.amplitude * np.sin( self.frequency * time + self.phase ) + self.shift
 
 # Create collection of waves
+seed_value = 15
 num_sets = 3
 num_waves = 100
 wave_sets = [{} for _ in range(num_sets)]
